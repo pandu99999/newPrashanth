@@ -1,0 +1,100 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('Back.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Programming section */
+.Programming {
+    background-color: rgba(0, 128, 0, 0.8); /* Green background with transparency */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.Programming h2 {
+    text-align: center;
+}
+
+.Programming ul {
+    list-style-type: square;
+    padding-left: 20px; /* Ensure proper padding for list items */
+}
+
+.Programming p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Frontend section */
+.frontend {
+    background-color: rgba(255, 255, 0, 0.8); /* Yellow background with transparency */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.frontend h2 {
+    text-align: center;
+}
+
+.frontend ul {
+    list-style-type: square;
+    padding-left: 20px; /* Ensure proper padding for list items */
+    display: inline-block; /* Centers the list while keeping the dots aligned */
+    text-align: left; /* Align text to the left */
+}
+
+.frontend li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.frontend p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Miscellaneous */
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.certifications {
+    background-color: rgba(255, 165, 0, 0.8); /* Light orange background with transparency */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #333; /* Text color */
+    text-align: center; /* Center-aligns text within the div */
+}
+
+.certifications h2 {
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.certifications ul {
+    list-style-type: none; /* Removes default list bullets */
+    padding: 0; /* Removes padding */
+}
+
+.certifications li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.certifications a {
+    text-decoration: none; /* Removes underline from links */
+    color: #0066cc; /* Link color */
+    font-weight: bold; /* Makes link text bold */
+}
+
+.certifications a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+    color: #004d99; /* Darker blue on hover */
+}

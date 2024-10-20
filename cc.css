@@ -1,0 +1,30 @@
+/* Ensures the body and html take up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the image as the background for the entire page */
+body {
+    background-image: url('Back.jpeg'); /* Replace with your image */
+    background-size: cover;  /* Ensures the image covers the entire viewport */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-attachment: fixed;  /* Keeps the background fixed during scrolling */
+}
+
+/* Content styling */
+.content {
+    color: white; /* Text color to stand out against the background */
+    text-align: center;
+    padding-top: 20%; /* Adjust vertical spacing */
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.furm{
+    text-align: center;
+    margin-bottom: 80%;
+}
